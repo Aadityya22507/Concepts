@@ -1,0 +1,49 @@
+class base
+{
+    public int a , b;
+    public base()
+    {
+        System.out.println("base constructor");
+    }
+    public void fun()
+    {
+        System.out.println("inside base fun");
+    }
+}
+
+class derived extends base
+{
+    public int x , y;
+    public derived()
+    {
+        System.out.println("derived constructor");
+    }
+    public void gun()
+    {
+        System.out.println("inside derived gun");
+    }
+}
+
+class derivedx extends base
+{
+    public int p , q;
+    public derivedx()
+    {
+        system.out.println("derivedx constructor");
+    }
+    public void sun()
+    {
+        system.out.println("inside derivedx sun");
+    }
+}
+
+class hierarch
+{
+    public static void main(String A[])
+    {
+        derived dobj1 = new derived();
+        derivedx dobj2 = new derivedx();
+        
+        
+    }
+}
